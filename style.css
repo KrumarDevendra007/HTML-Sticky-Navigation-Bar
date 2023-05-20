@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.nav, li, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #24252A;
+}
+
+#logo{
+    cursor: pointer;
+}
+
+#navbar{
+    list-style: none;
+}
+
+#navbar li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+/*#navbar li a{
+    transition: all 0.3s ease 0s;
+}*/
+
+#navbar li a:hover{
+    color: blue;
+}
+
+#nav{
+    scroll-behavior: smooth;
+}
+button{
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+
+.bookTitle{
+    color: blue;
+}
+
+table, th, td {
+    border: 1px solid;
+    padding: 6px;
+    margin: 20px;
+    
+  }
+table{
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}  
+
+#formStyle{
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    width: 62%;
+    background-color:#e6ffff;
+    padding: 30px;
+}
+
+input[type=text],
+input[type=date],
+input[type=email],
+input[type=number],
+input[type=password],
+ select, textarea{
+    width: 70%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+
+  label {
+    padding: 20px;
+    display: inline-block;
+  }
+
+  #sticky{
+    position: fixed;
+    width: 100%;
+   
+}
+
+ 
